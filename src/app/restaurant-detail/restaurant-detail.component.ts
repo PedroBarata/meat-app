@@ -10,7 +10,7 @@ export class RestaurantDetailComponent implements OnInit {
 
   restaurant: Restaurant;
 
-  constructor(private restaurantsService: RestaurantsService, 
+  constructor(private restaurantsService: RestaurantsService,
               private route: ActivatedRoute) { }
 
   ngOnInit() {
